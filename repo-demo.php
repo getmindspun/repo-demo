@@ -34,7 +34,7 @@ PucFactory::buildUpdateChecker(
 );
 
 /**
- * Add the license key to the request.  Otherwise the repo will return 401.
+ * Add the license key to the request.  Otherwise the repo show no updates available.
  */
 add_filter( 'puc_request_info_options-' . REPO_DEMO_SLUG, function ( array $options ) {
 	$repo_demo_options = get_option( 'repo_demo_options', array() );
