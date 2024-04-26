@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/getmindspun/repo-demo",
+    "slug": "repo-demo",
+    "sections": {
+        "description" : "This plugin demonstrates using Plugin Update Checker in your WordPress plugin or theme.",
+        "changelog" : "Ch-ch-ch-ch-changes<br/>Turn and face the strange",
+        "custom_section" : "<em>You can have additional panels.</em>"
+    },
+    "tested": "6.5",
+    "icons": {
+        "1x": "https://getmindspun.github.io/public/repo-demo/icon-128x128.png",
+        "2x": "https://getmindspun.github.io/public/repo-demo/icon-256x256.png",
+        "svg": "https://getmindspun.github.io/public/repo-demo/icon.svg"
+    },
+    "banners": {
+        "low": "https://getmindspun.github.io/public/repo-demo/banner-772x250.jpg",
+        "high": "https://getmindspun.github.io/public/repo-demo/banner-1544x500.jpg"
+    }
+}
