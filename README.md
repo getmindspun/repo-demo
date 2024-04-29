@@ -19,7 +19,7 @@ PucFactory::buildUpdateChecker(
 );
 ```
 
-Replace REPO_DEMO_URL and REPO_DEMO_SLUG with the URL and slug of your plugin respectively.
+Replace REPO_DEMO_URL and REPO_DEMO_SLUG with the URL and slug of your plugin, respectively.
 
 ## Building
 Using a unix-style terminal, you can build the plugin zip file by:
@@ -40,10 +40,10 @@ You can validate the setup manually by testing the two network calls required fo
 The first GET request checks for the most recent version of the plugin.  For instance:
 
 ```shell
-http://localhost/wp-json/mindspun/payments/v1/repo/Repo+Demo?key=SLM-A010E-2EE29-A9C74-1D40E-3A84E-FEE40-3C
+http://localhost/wp-json/mindspun/payments/v1/repo/repo-demo?key=SLM-A010E-2EE29-A9C74-1D40E-3A84E-FEE40-3C
 ```
 
-Where 'Repo+Demo' if the URL encoded name of your plugin and key is a valid license key that you created with the SLM plugin.
+Where 'repo-demo' is the slug of your plugin or theme, and 'key' is a valid license key you created with the SLM plugin.
 
 If it's successful, you'll get a JSON response like the following:
 ```json
